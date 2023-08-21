@@ -1,0 +1,94 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
+/* universal style  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header style start  */
+.header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.header .logo{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #383874;
+    transition: .4s;
+    font-weight: 500;
+}
+
+.header ul li a:hover{
+    color: darkmagenta;
+}
+
+.menuicon i{
+    display: none;
+}
+/* header style end  */
+
+/* section style start  */
+.section{
+    display: flex;
+    height: calc(100vh - 100px);
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.section .contentBox h2{
+    color: #020230;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.section .contentBox p{
+    font-size: 17px;
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+.section .contentBox button{
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    background-color: #020230;
+    color: #fff;
+    font-size: 17px;
+    transition: .4s;
+}
+
+.section .contentBox button:hover{
+    color: #020230;
+    border-color: #020230;
+    background-color: #fff;
+}
+
+.section .contentBox, .contentImg{
+    width: 50%;
+}
+
+.section .contentImg img{
+    width: 100%;
+}
+/* section style end  */
