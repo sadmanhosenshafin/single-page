@@ -91,11 +91,15 @@
 
 
 /* Small devices such as large phones (640px and up) */
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 600px) {
     /* header style  */
     .header{
         padding: 0 50px;
         justify-content: space-between;
+    }
+
+    .header .logo{
+        font-size: 17px;
     }
 
     /* section style  */
@@ -116,12 +120,12 @@
     }
 
     .section .contentBox h2{
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 500;
     }
 
     .section .contentBox p{
-        font-size: 16px;
+        font-size: 13px;
         font-weight: 500;
         margin: 10px 0;
     }
